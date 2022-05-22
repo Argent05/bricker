@@ -1,7 +1,10 @@
 void pause() {
-   background(255,0,0); 
+   
+   fill(white);
+
+   text("PAUSE!!",width/2,height/2);
 }
 
 void pauseClicks() {
-  
+  mode = GAME;
 }
